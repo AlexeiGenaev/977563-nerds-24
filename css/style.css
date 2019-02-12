@@ -1,0 +1,214 @@
+body {
+  margin: 0 ;
+  padding: 0 ;
+
+  font-family:"roboto";
+  font-size: 16px ;
+  line-height: 24px;
+  font-weight: 500 ;
+  color: #61686c ;
+
+  background-color: #ffffff ;
+}
+a {
+  text-decoration: none;
+}
+.main-header {
+  background-color: #eeeeee ;
+}
+.main-navigation ul {
+  list-style: none ;
+}
+.site-navigation{
+  text-align: center;
+}
+.site-navigation  a,
+.user-navigation  a {
+  color: #000000 ;
+  font-size: 16px;
+  font-weight: 600 ;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+.site-navigation  a:hover,
+.user-navigation  a:hover,
+.site-navigation  a:focus,
+.user-navigation  a:focus {
+  color: #fb565a ;
+}
+.site-navigation  a:active,
+.user-navigation  a:active {
+  color: #a6a6a6 ;
+}
+.offers ul {
+  list-style: none;
+}
+.offers-list h3 {
+  font-size: 24px ;
+  font-weight: 600 ;
+  line-height: 30px ;
+  color: #000000 ;
+  text-transform: uppercase;
+}
+.button {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 16px ;
+  font-weight: 600;
+  line-height: 18px ;
+  color: #ffffff ;
+  text-transform: uppercase;
+
+  background-color: #fb565a ;
+  border: none ;
+}
+.button:hover {
+  background-color: #e74246 ;
+}
+.button:active{
+  background-color: #d7373b ;
+  color: #e37376 ;
+}
+.app{
+  background-color: #00ca74 ;
+  }
+  .app:hover {
+    background-color: #00bc6c ;
+  }
+  .app:active{
+    background-color: #00aa62 ;
+    color:#4dc491 ;
+  }
+.pre {
+  background-color: #efc849 ;
+}
+.pre:hover{
+  background-color: #eab534 ;
+}
+.pre:active{
+  background-color: #e5a722 ;
+  color: #edc265 ;
+}
+.slogan{
+  font-size: 45px ;
+  line-height: 45px ;
+  font-weight: 600 ;
+  color: #000000 ;
+}
+.about b{
+  text-transform: uppercase;
+  color: #000000 ;
+  font-weight: 600 ;
+}
+.infogr-percent {
+  font-size: 45px ;
+  line-height: 10px ;
+  color: #000000 ;
+  font-weight: 600 ;
+}
+.modal h2 {
+  font-size: 45px ;
+  line-height: 45px ;
+  color: #000000 ;
+  font-weight: 600;
+}
+.modal label {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 600 ;
+  color:#000000 ;
+}
+.footer-contacts b {
+  font-size: 18px ;
+  line-height: 30px ;
+  text-transform: uppercase;
+}
+.social ul {
+  list-style: none;
+}
+.social-button {
+  color: #000000 ;
+  text-transform: uppercase;
+}
+.frends .profit{
+  font-size: 36px ;
+  font-weight: 600;
+  line-height: 36px ;
+  color: #000000 ;
+}
+.footer-partners a{
+  opacity: 0.2 ;
+}
+.footer-partners a:hover,
+.footer-partners a:focus{
+  opacity: 1 ;
+}
+.footer-partners a:active {
+  opacity: 0.1 ;
+}
+/*переопределения для каталога: */
+.catalog-title{
+  font-size: 55px ;
+  line-height: 55px ;
+  color: #000000 ;
+  text-align: center;
+}
+.store {
+  padding-bottom: 13px ;
+  padding-left: 0 ;
+  padding-right: 0 ;
+  border-bottom: 2px solid #fb565a ;
+}
+.filter ul,
+.sorting-option ul,
+.pagination ul,
+.catalog ul{
+  list-style: none;
+}
+.pagination-item a {
+  color:#000000 ;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+.sorting-option .button{
+  background-color: #ffffff ;
+  color: #b2b2b2 ;
+}
+.sorting-option .sort-selected {
+  color: #000000 ;
+}
+.filter h3,
+.sorting{
+  font-size: 18px ;
+  line-height: 18px ;
+  font-weight: 600 ;
+  text-transform: uppercase;
+  color: #000000 ;
+}
+.show,
+.pagination-item {
+  color: #000000 ;
+  background-color: #eeeeee ;
+}
+.diapason{
+  text-transform: uppercase;
+}
+.image-pattern-hover h4 {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #000000 ;
+  text-transform: uppercase;
+}
+ p{
+  color: #a6a6a6 ;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 600;
+}
+.image-pattern-hover{
+  text-align: center;
+  background-color: #eeeeee ;
+}
