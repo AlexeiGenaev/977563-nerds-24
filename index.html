@@ -9,56 +9,69 @@
   </head>
   <body>
     <header class="main-header">
-          <nav class="main-navigation">
+       <div class="layout-positioner">
+          <nav class="main-navigation ">
+
             <a class="main-header-logo">
               <img src="img/nerds-logo.svg" width="160" height="65"
               alt="Логотип дизайн-студии Нердс">
             </a>
+
             <ul class="site-navigation">
               <li><a href="info.html">Студия</a></li>
               <li><a href="clients.html">Клиенты</a></li>
               <li><a href="catalog.html">Магазин</a></li>
               <li><a href="contacts.html">Контакты</a></li>
             </ul>
+
             <ul class="user-navigation">
               <li class="basket">
-                <a href="">  Корзина</a>
+                <a href="#">  Корзина</a>
               </li>
             </ul>
-           <!--<div>
-            <h1>Математически выверенный дизайн для вашего сайта или мобильного
-              приложения.</h1>
+          </nav>
+<!--  Будущий слайдер:-->
+           <div class="slogan-container">
+
+            <h1>Математически выверенный дизайн<br>
+               для вашего сайта или мобильного приложения.</h1>
             <p class="slogan">
-              Долго, дорого, скурпулезно.
+              Долго, дорого,<br>
+              скрупулезно.
             </p>
               <a class="button more" href="#"> Узнать больше
               </a>
-            </div>-->
-          </nav>
+
+            </div>
+          </div>
         </header>
         <main>
+          <div class="layout-positioner">
           <section class="offers">
         <h2 class="visually-hidden">Предложения</h2>
         <ul class="offers-list">
-          <li class="offer-site">
+          <li class="offer-item site-item">
             <h3>Веб-сайты</h3>
             <p>Мир никогда не будет прежним после того как увидит
             ваш сайт! </p>
             <a class="button site" href="#"> Заказать </a>
           </li>
-          <li class="offer-app">
+          <li class="offer-item app-item">
             <h3>Приложения</h3>
             <p>Покорите топ-10 приложений в AppStore и Google Play </p>
             <a class="button app" href="#"> Заказать </a>
           </li>
-          <li class="offer-pre">
+          <li class="offer-item pre-item">
             <h3>Презентации</h3>
             <p>Вы даже не подозреваете, насколько вы изумительны! </p>
             <a class="button pre" href="#"> Заказать </a>
           </li>
         </ul>
       </section>
+    </div>
+    <div class="layout-positioner">
       <article class="about">
+        <div class="about-column-1">
         <h3 class="visually-hidden"> О нас </h3>
         <p class="slogan"> Мы - маленькая, но гордая дизайн-студия из
         Краснодара.</p>
@@ -66,10 +79,11 @@
         расчет превыше креатива. Работаем не покладая рук, как роботы. </p>
         <b> Выполняем заказы на разработку: </b>
         <ul>
-<li> Веб-сайтов любой сложности </li>
-<li> Мобильных приложений для IOs и Android </li>
-          <li> Слайдшоу и видео для корпоративных презентаций </li>
+           <li> Веб-сайтов любой сложности </li>
+           <li> Мобильных приложений для IOs и Android </li>
+           <li> Слайдшоу и видео для корпоративных презентаций </li>
         </ul>
+      </div>
         <div class="infogr">
           <img src="img/nerds-illustration.png" width="360px" height="208px"
           alt="Иллюстрация">
@@ -81,7 +95,8 @@
 </ul>
         </div>
       </article>
-      <section class="modal">
+    </div>
+      <section class="modal visually-hidden">
         <h2>Напишите нам</h2>
         <form action="https://echo.htmlacademy.ru" method="post">
           <p>
@@ -104,9 +119,10 @@
       </section>
 </main>
      <footer>
+       <div class="layout-positioner">
        <section class="footer-partners">
          <h4 class="visually-hidden"> Партнеры </h4>
-         <ul>
+         <ul class="partners">
            <li>
           <a href="#"><img src="img/logo-1-png-copy.png" width="199" height="68"></a>
           </li>
@@ -120,32 +136,41 @@
           </li>
          </ul>
        </section>
-       <section class="footer-end">
+     </div>
+
+       <section class="footer-map">
        <div class="footer-contacts">
+         <div class="adress-post">
          <b> NЁRDS DESIGN STUDIO </b>
         <p class="footer-adress">
           <span> 191186, Санкт-Петербург,
           ул.Б.Конюшенная, д.19/8  </span>
           <span> тел.+7 (812) 275-75-75 </span>
         </p>
-        <a href="#" class="button"> Напишите нам: </a>
+      </div>
+        <a href="#" class="button write"> Напишите нам </a>
        </div>
-       <div>
+       <div class="marker">
+         <img src="img/map-marker-png@3x.png"  width="231px" height="190px">
+       </div>
+       <div class="map">
   <img src="img/map.jpg" width="1440px" height="416px">
-  <img src="img/map-marker-png@3x.png"  width="231px" height="190px">
 </div>
-  <div class="social">
-    <ul>
+</section>
+
+<div class="layout-positioner">
+  <section class="social">
+    <ul class="social-items">
       <li><a class="social-button" href="#">Вконтакте</a></li>
         <li><a class="social-button" href="#">Фейсбук</a></li>
         <li><a class="social-button" href="#">Инстаграм</a></li>
     </ul>
-    </div>
      <div class="frends">
       <p class="profit">  Давайте дружить, это выгодно!  </p>
       <p class="sale">Скидка 10% для друзей из социальных сетей.  </p>
     </div>
   </section>
+</div>
     </footer>
   </body>
 </html>

@@ -8,8 +8,12 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <header class="main-header">
+    <header class="main-header ">
+      <div class="layout-positioner">
+      <div class="catalog-header">
+        <div class="catalog-header-title">
       <h1 class="catalog-title"> Магазин готовых шаблонов </h1>
+    </div>
           <nav class="main-navigation">
             <a class="main-header-logo" href="index.html">
               <img src="img/nerds-logo.svg" width="160" height="65"
@@ -27,9 +31,12 @@
               </li>
             </ul>
         </nav>
+      </div>
+    </div>
       </header>
        <main>
-         <section>
+         <div class="main-columns">
+         <section class="form">
            <form class="filter" action="https://echo.htmlacademy.ru" method="post">
             <p>
               <h3>Стоимость</h3>
@@ -73,20 +80,22 @@
           </p>
            </form>
          </section>
-        <section>
+        <section class="catalog-container">
+          <div class="sorting-column-1">
           <h3 class="sorting">Сортировать:
           </h3>
-          <div class="sorting-option">
-            <ul >
+        </div>
+
+            <ul class="sorting-option" >
               <li><button class="button sort-selected">По цене </button> </li>
               <li><button class="button sort">По типу </button> </li>
               <li><button class="button sort">По названию </button> </li>
               <li><button class="decrease">Цена по убыванию </button> </li>
               <li><button class="increase">Цена по возрастанию </button> </li>
             </ul>
-          </div>
-        <section class="catalog">
-          <ul>
+
+
+          <ul class="catalog">
        <li>
        <p class="catalog-item-image">
        <a href="#"><img src="img/img-sedona-jpg@3x.png" width="360" height="576"
@@ -153,9 +162,9 @@
          </div>
         </a></p> </li>
           </ul>
-        </section>
-        <div class="pagination">
-          <ul>
+
+
+          <ul class="pagination">
                 <li class="pagination-item pagination-item-current"><a href="#">
                 1</a>  </li>
                 <li class="pagination-item"><a href="#">
@@ -165,10 +174,11 @@
                 <li class="pagination-item next"><a href="#">
                 Следующая</a>  </li>
           </ul>
-        </div>
+
         </section>
+      </div>
          </main>
-         <section class="modal">
+         <section class="modal visually-hidden">
            <h2>Напишите нам</h2>
            <form action="https://echo.htmlacademy.ru" method="post">
              <p>
@@ -190,33 +200,39 @@
            </form>
          </section>
          <footer>
-            <section class="footer-end">
-             <div class="footer-contacts">
-               <b> NЁRDS DESIGN STUDIO </b>
-              <p class="footer-adress">
-                <span> 191186, Санкт-Петербург,
-                ул.Б.Конюшенная, д.19/8  </span>
-                <span> тел.+7 (812) 275-75-75 </span>
-              </p>
-              <a href="#" class="button"> Напишите нам: </a>
-             </div>
-             <div>
-        <img src="img/map.jpg" width="1440px" height="416px">
-        <img src="img/map-marker-png@3x.png"  width="231px" height="190px">
-      </div>
-        <div class="social">
-          <ul>
-            <li><a class="social-button" href="#">Вконтакте</a></li>
-              <li><a class="social-button" href="#">Фейсбук</a></li>
-              <li><a class="social-button" href="#">Инстаграм</a></li>
-          </ul>
+           <section class="footer-map">
+           <div class="footer-contacts">
+             <div class="adress-post">
+             <b> NЁRDS DESIGN STUDIO </b>
+            <p class="footer-adress">
+              <span> 191186, Санкт-Петербург,
+              ул.Б.Конюшенная, д.19/8  </span>
+              <span> тел.+7 (812) 275-75-75 </span>
+            </p>
           </div>
-          <div class="frends">
-           <p class="profit">  Давайте дружить, это выгодно!  </p>
-           <p class="sale">Скидка 10% для друзей из социальных сетей.  </p>
-         </div>
+            <a href="#" class="button write"> Напишите нам </a>
+           </div>
+           <div class="marker">
+             <img src="img/map-marker-png@3x.png"  width="231px" height="190px">
+           </div>
+           <div class="map">
+      <img src="img/map.jpg" width="1440px" height="416px">
+    </div>
+    </section>
 
-           </section>
+    <div class="layout-positioner">
+      <section class="social">
+        <ul class="social-items">
+          <li><a class="social-button" href="#">Вконтакте</a></li>
+            <li><a class="social-button" href="#">Фейсбук</a></li>
+            <li><a class="social-button" href="#">Инстаграм</a></li>
+        </ul>
+         <div class="frends">
+          <p class="profit">  Давайте дружить, это выгодно!  </p>
+          <p class="sale">Скидка 10% для друзей из социальных сетей.  </p>
+        </div>
+      </section>
+    </div>
           </footer>
         </body>
       </html>
