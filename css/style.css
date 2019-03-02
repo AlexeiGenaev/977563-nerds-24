@@ -10,30 +10,20 @@ body {
   color: #000000 ;
 
   background-color: #ffffff ;
-/*  background-image: url(../img/nerds-index.jpg);*/
-  background-repeat: no-repeat;
-  background-position:  center top;
-  background-attachment: scroll  ;
+
 }
-* {
+*body {
   box-sizing: inherit;
+
 }
 
 
 .visually-hidden {
   position: absolute;
-
+  clip: rect(0 0 0 0);
   width: 1px;
   height: 1px;
   margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 h1{
   font-size: 16px;
@@ -89,7 +79,6 @@ a {
 .button {
   display: inline-block;
   text-align: center;
-  padding-top: 17px ;
 
   font-size: 16px ;
   font-weight: 600;
@@ -128,13 +117,7 @@ a {
   background-color: #e5a722 ;
   color: #edc265 ;
 }
- .slogan{
-  font-size: 55px ;
-  line-height: 55px ;
-  font-weight: 600 ;
-  color: #000000 ;
-}
- .about .about-studio{
+.about .slogan{
   font-size: 45px ;
   line-height: 45px ;
   font-weight: 600 ;
@@ -155,21 +138,10 @@ a {
   list-style: none;
 }
 .infogr-percent {
-  /*font-size: 45px ;
+  font-size: 45px ;
   line-height: 10px ;
   color: #000000 ;
-  font-weight: 600 ;*/
-  width: 93px;
-  height: 35px;
-  font-family: Roboto;
-  font-size: 45px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 0.22;
-  letter-spacing: normal;
-  text-align: left;
-  color: #000000 ;
+  font-weight: 600 ;
 }
 .modal h2 {
   font-size: 45px ;
@@ -198,7 +170,7 @@ a {
 }
 .frends .profit{
   font-size: 36px ;
-  font-weight:  700 ;
+  font-weight: 600;
   line-height: 36px ;
   color: #000000 ;
 }
@@ -289,61 +261,34 @@ a {
   margin-right: auto;
   /*border: 1px dotted green ;*/
 }
-.main-header{
-  width: 100% ;
-  min-height: 545px ;
-
-
-
-}
 .main-navigation {
   display: flex;
   width: 1200px ;
-  min-height: 130px;
+  min-height: 120px;
   margin: 0 ;
-  padding: 0 ;
   justify-content: space-between;
 
-  /*временная рамка для разметки
-  border: 1px dotted red ;*/
+  /*временная рамка для разметки */
+  border: 1px dotted red ;
 }
-
 .main-header-logo{
-  margin-top: 48px;
-  margin-left: 19px;
-  margin-right: 200px ;
-  padding: 0 ;
-/*border: 1px dotted blue ;*/
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 160px ;
+border: 1px dotted blue ;
 }
 .user-navigation {
-  position: relative;
-  display: block;
 margin-top: 75px ;
-margin-bottom: auto;
 margin-right: 20px;
-/*border: 1px dotted blue ;*/
-}
-.user-navigation::before {
-  position: absolute;
-  content: "";
-  width: 15px ;
-  height: 20px ;
-  background-image: url(../img/cart-icon.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-
-  top: 7px ;
-  left: 0px ;
+border: 1px dotted blue ;
 }
 .site-navigation{
   width: 440px ;
   display: flex;
   justify-content: space-between;
   margin-top: 75px ;
-  margin-bottom: auto;
   margin-right: auto;
-  padding: 0;
-  /*border: 1px dotted blue ;*/
+  border: 1px dotted blue ;
 }
 
 /*слайдер:*/
@@ -351,39 +296,32 @@ margin-right: 20px;
   display:flex;
   flex-direction: column;
   width: 1200px;
-  min-height: 415px ;
-  margin:  0 ;
-  padding: 0 ;
-  /*border: 1px dotted red ;*/
+  min-height: 425px ;
+  border: 1px dotted red ;
   background-image: url("../img/slide-1@2x.png");
   background-size: 700px auto;
   background-repeat: no-repeat;
-  background-position-x: 448px;
+  background-position-x: 450px;
   background-position-y: bottom;
 }
 .slogan-container .slogan{
 order: -1 ;
-
-margin-top: 62px ;
-margin-left: 19px;
+margin-top: 75px ;
+margin-bottom: 25px;
+margin-left: 20px;
 margin-right: auto;
-margin-bottom: 0 ;
-padding: 0 ;
-/*border: 1px dotted blue ;*/
+border: 1px dotted blue ;
 }
 .slogan-container .button{
-  margin-top: 39px;
+  margin-top: 40px;
   width: 240px ;
   margin-left: 20px;
 }
 .slogan-container h1{
-  margin-top: 26px ;
   margin-left: 20px;
   margin-right: auto;
-  margin-bottom: 0 ;
-  /*border: 1px dotted blue ;*/
+  border: 1px dotted blue ;
 }
-
 .offers{
   width: 1160px ;
   margin-top: 80px ;
@@ -400,26 +338,11 @@ padding: 0 ;
   display: flex;
   flex-direction: column;
   width: 300px ;
-  min-height: 347px ;
-  margin-bottom: 64px ;
-  /*justify-content: flex-end;*/
+  min-height: 345px ;
+  margin-bottom: 85px ;
+  justify-content: flex-end;
 
-    /*border: 1px dotted blue ;*/
-}
-.offer-item h3{
-  display: block;
-  padding: 0 ;
-  margin-bottom: 0 ;
-  margin-top: 170px ;
-}
-.offer-item p{
-  line-height: 24px ;
-width: 250px ;
-display: block;
-margin-top: 16px ;
-}
-.offer-item a{
-  margin-top: auto ;
+    border: 1px dotted blue ;
 }
 .site-item{
   background-image: url("../img/illustration-1@3x.png");
@@ -446,133 +369,38 @@ margin-top: 16px ;
   display: flex;
   width: 1160px ;
   border-bottom: 2px solid #eeeeee ;
-  margin-top: 0px ;
+  margin-top: 40px ;
   margin-left: 20px;
-  padding: 0 ;
 }
 .about-column-1{
-  display: flex;
-  flex-direction: column;
   width: 660px ;
+  border: 1px dotted blue ;
+  margin-bottom: 60px ;
+}
 
-  margin-top: 73px ;
-  padding: 0 ;
-    /*border: 1px dotted blue ;*/
-}
-.about-studio {
-  display:  block;
-
-  margin-top: 0 ;
-  margin-bottom: 18px ;
-}
-.about-column-1 .about-credo {
-  line-height: 24px ;
-  margin-bottom: 38px ;
-}
-.about-column-1 b {
-  margin-bottom: 8px ;
-
-}
-.about-column-1 ul {
-  display: flex;
-  flex-direction: column;
-  padding: 0 ;
-  margin-left: 36px ;
-}
-.about-column-1 li {
-  position: relative;
-  margin-bottom: 24px ;
-}
-.about-column-1 li::before{
-  content: "" ;
-  display: block;
-  position: absolute;
-  top: 11px ;
-  left: -36px ;
-  width: 25px ;
-  height: 2px ;
-  background-color: #fb565a ;
-}
 .infogr {
-  display: flex;
-  flex-direction: column;
   width: 360px ;
   min-height: 430px ;
-  margin-top: 40px ;
+
   margin-left: auto ;
-  margin-bottom: 55px ;
-  padding: 0 ;
+  margin-bottom: 60px ;
 
-  /*border: 1px dotted blue ;*/
-}
-.infogr img {
-  width: 100% ;
-  height: auto;
-  margin-bottom: 35px ;
-}
-.infogr b {
-margin-left: 16px ;
-margin-bottom: 10px ;
-}
-.infogr ul {
-  width: 360px ;
-  display: flex;
-  justify-content: space-between;
-  padding: 0 ;
-  margin: 0 ;
+  border: 1px dotted blue ;
 
-}
-.infogr li {
-width: 115px ;
-padding: 0 ;
-/*border: 1px dotted blue ;*/
-}
-.infogr li:nth-child(3){
-  margin-right: 6px ;
-}
-.infogr .infogr-percent {
-  font-size: 45px ;
-  margin-bottom: 15px ;
 }
 .partners{
   display: flex;
   width: 1160px;
-  min-height: 182px ;
-
-  margin-top: 0 ;
+  min-height: 180px ;
+  align-items: center;
+  padding-left: 0 ;
   margin-left: 20px ;
-  padding: 0 ;
   list-style: none;
   border-bottom: 2px solid #eeeeee ;
 }
-.partners .separator{
-display: block;
-width: 2px ;
-height: 50px ;
-background-color: #eeeeee ;
-
-margin-top: 65px ;
-}
-.partners li:nth-child(1){
-  margin-left: 30px;
-  margin-right: 50px ;
-  margin-top: 61px ;
-}
-.partners li:nth-child(3){
-  margin-left: 45px;
-  margin-right: 44px ;
-  margin-top: 47px ;
-}
-.partners li:nth-child(5){
-  margin-left: 56px;
-  margin-right: 58px ;
-  margin-top: 65px ;
-}
-.partners li:nth-child(7){
-  margin-left: 62px;
-  margin-right: auto ;
-  margin-top: 52px ;
-}
+.partners li{
+margin: auto;
+  }
 .footer-map {
   width: 1440px ;
   height: 420px ;
@@ -611,102 +439,21 @@ margin-top: 65px ;
   display: flex;
   width: 1160px ;
   margin-left: 20px ;
-  /*border: 1px dotted red ;*/
-  align-items: flex-start ;
+  border: 1px dotted red ;
 }
 .social-items{
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end ;
-  width: 260px ;
-  /*border: 1px dotted blue ;*/
+  border: 1px dotted blue ;
   padding: 0 ;
-
 }
 .social-items li{
-margin-top: 70px ;
+  border: 1px dotted green ;
+  margin: auto;
 }
-.social-button {
-  position: relative;
-  font-size: 0px ;
-
-  border: 40px solid #e1e1e1 ;
-  border-radius: 50%  ;
-}
-.social-button:hover {
-  border-color: #e74246;
-}
-.social-button:active {
-  border-color: #d7373b;
-}
-.vk:active::after {
-  opacity: 0.3 ;
-}
-.fb:active::after {
-  opacity: 0.3 ;
-}
-.inst:active::after {
-  opacity: 0.3 ;
-}
-
-.social-items .vk::after {
-  display: block;
-  position: absolute;
-  content: "";
-  width: 28px;
-  height: 20px ;
-
-  background-image: url(../img/vk-icon@2x.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-
-  top: -8px ;
-  left: -15px ;
-}
-.social-items .fb::after {
-  display: block;
-  position: absolute;
-  content: "";
-  width: 12px;
-  height: 40px ;
-
-  background-image: url(../img/fb-icon@2x.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-
-  top: -11px ;
-  left: -6px ;
-}
-.social-items .inst::after {
-  display: block;
-  position: absolute;
-  content: "";
-  width: 22px;
-  height: 40px ;
-
-  background-image: url(../img/insta-icon@2x.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-
-  top: -11px ;
-  left: -12px ;
-}
-
 .frends {
-  width: 550px ;
-  /*border: 1px dotted blue ;*/
-  margin-right: 209px ;
+  border: 1px dotted blue ;
+  margin-right: 215px ;
   margin-left: auto;
-  margin-top: 0px ;
-}
-.profit {
-  margin-top: 69px ;
-  margin-bottom: 0 ;
-  padding: 0 ;
-}
-.sale {
-  margin-top: 10px ;
-  padding: 0 ;
 }
 
 /* сетка каталога: */
@@ -762,7 +509,6 @@ margin-top: 70px ;
 }
 .show {
   width: 260px ;
-  padding: 0 ;
 }
 .pagination {
   display: flex;
